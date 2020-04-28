@@ -50,5 +50,14 @@ There are 5 folders in total:
 
 2. The ```collision_avoidance```, ```object_following``` and ```sign_detection``` folders contains the modified notebooks inserted with comments. Do refer to the comments for important notes. The link to the trained models are given in the Readme file under the respective folder
 
+### Some Known Issues
+
+1. There are issues with the camera of the Jetbot. Creating a new ```Camera.instance()``` in one notebook will prevent other notebooks from creating a new camera instance. Also, it is important to shutdown the camera instance with ```camera.stop()``` before creating a new camera instance. If the camera instance is not properly terminated, the only solution we have found out is to reboot the Jetbot.Therefore, please be graceful with the Camera!!!
+
+2. Please pay constant attention to the status of the jupyter notebook. It is supposed to be ```idle``` when you are not running anything and ```busy``` when you are running some codes. ```unknown``` status indicates that there might be internet connection problems with the jupyter notebook (which happens a lot!). You may want to consider reconnecting after waiting for a while.
+
+3. There is significant inconsistency between the qulities of the motors and PCBs, therefore parameters such as speed and turn_gain need to be tuned for each jetbot. Just do some trial and error to find the acceptable speed.
+
+4. As you may have noticed, there is no indication for the battery level of the Jetbot. Therefore, its is recommended to always charge the jetbot while you are prgramming it and only disconnect the charger when you are testing it on the ground. It is important to let the participants to note this during the event!
 
 Good Luck and Have Fun!
