@@ -6,11 +6,11 @@ Welcome, Micron AGV interns!
 This repository contains the modified notebooks for the Micron Robotic Event Day, created by the 2019/20 semester 2 batch of micron AGV interns.
 
 
-##Hardware Setup
+## Hardware Setup
 
 For the hardware installation, please follow the original link provided by the waveshare jetbot documentation www.waveshare.com/wiki/JetBot_AI_Kit. 
 
-<font color='red'>IMPORTANT </font>
+### IMPORTANT 
 
 1. Please flash the Jetbots with Jetbot Image v3.2. This repository is ONLY compatible with jetbot image version 3.2. Jetbot image version 3.2 is built with TensorRT 5.0 while Jetbot image version 4 is built with TensorRT version 6.1. 
 
@@ -40,7 +40,7 @@ sudo nvpmodel -m1
 ## Package Content
 There are 5 folders in total:
 
-1.The first two folders ```basic_motion``` and ```teleoperation``` contains mostly original notebook from the waveshare Jetbot documenation. You can get familiar with the basic operation of the jetbot with this two files. Alternatively, clone the original repository from the waveshare website to see the unmodified notebooks.
+1. The first two folders ```basic_motion``` and ```teleoperation``` contains mostly original notebook from the waveshare Jetbot documenation. You can get familiar with the basic operation of the jetbot with this two files. Alternatively, clone the original repository from the waveshare website to see the unmodified notebooks.
 
 2. The ```collision_avoidance```, ```object_following``` and ```sign_detection``` folders contains the modified notebooks inserted with comments. Do refer to the comments for important notes. The link to the trained models are given in the Readme file under the respective folder
 
