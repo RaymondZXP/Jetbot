@@ -6,11 +6,15 @@ Please note that for the purpose of the real Robotic Event Day, the you may need
 
 ###### Stop Sign
 
+![alt text](https://github.com/RaymondZXP/Jetbot/blob/master/Notebooks/sign_detection/img_examples/stop.jpg)
 
 ###### Right Sign
 
+![alt text](https://github.com/RaymondZXP/Jetbot/blob/master/Notebooks/sign_detection/img_examples/right.jpg)
 
 ###### Left Sign
+
+![alt text](https://github.com/RaymondZXP/Jetbot/blob/master/Notebooks/sign_detection/img_examples/left.jpg)
 
 and the other two classes ```free``` and ```blocked``` are trained on teh same dataset gathered in ```collision_avoidance``` folder.
 
