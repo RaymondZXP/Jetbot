@@ -7,7 +7,7 @@ This repository contains the modified notebooks for the Micron Robotic Event Day
 
 For the hardware installation, please follow the original link provided by the waveshare jetbot documentation www.waveshare.com/wiki/JetBot_AI_Kit. 
 
-<font color="red">IMPORTANT </font>
+<p style='color:red'> IMPORTANT </p>
 
 This repository is ONLY compatible with jetbot image version 3.2. 
 
