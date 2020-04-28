@@ -11,7 +11,11 @@ For the hardware installation, please follow the original link provided by the w
 
 1. This repository is ONLY compatible with jetbot image version 3.2. Jetbot image version 3.2 is built with TensorRT 5.0 while Jetbot image version 4 is built with TensorRT version 6.1. 
 
-from jetbot import ObjectDetector in the object_following folder only works with TensorRT version 5.0.
+'''
+from jetbot import ObjectDetector 
+'''
+
+in the object_following folder only works with TensorRT version 5.0.
 
 
 
