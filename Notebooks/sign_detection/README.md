@@ -1,6 +1,6 @@
 As commented in ```live_demo_sign_detection.ipynb```, we are using similar concepts of image classification as in the ```collision_avoidance```.
 
-The model we have trained can be downloaded [here](https://drive.google.com/open?id=1FYCPo4fLVlf1l_GMvk_ABhMpD4hhDEId)
+The model we have trained can be downloaded [here](https://drive.google.com/open?id=1pGGbrtsgOSNxwk8G5qNCFtdh-vS28_mZ)
 
 Please note that for the purpose of the real Robotic Event Day, the you may need to re-collect image data on the event venue with your newly designed signs. This model is only trained based on image collected in the workstation with the follwing designs:
 
