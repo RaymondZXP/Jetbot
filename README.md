@@ -13,10 +13,10 @@ For the hardware installation, please follow the original link provided by the w
 ### IMPORTANT 
 
 1. Please flash the Jetbots with Jetbot Image v3.2. This repository is ONLY compatible with jetbot image version 3.2. Jetbot image version 3.2 is built with TensorRT 5.0 while Jetbot image version 4 is built with TensorRT version 6.1. 
-
-```
-from jetbot import ObjectDetector 
-```
+  
+  ```
+   from jetbot import ObjectDetector 
+  ```
 
   in the ```object_following``` folder, ```Object Following Tutorial.ipynb``` only works with TensorRT version 5.0. 
 
@@ -28,10 +28,16 @@ sudo nvpmodel -m1
 
   Please run 
   
-  ```sudo nvpmodel -m0```
+  ```
+  sudo nvpmodel -m0
+  ```
   
   followed by 
-  ```sudo nvpmodel -m1``` again
+  
+  ```
+  sudo nvpmodel -m1
+  ``` 
+  again
   
   This is to reset the power mode of the PCB to the default status before setting it to 5W mode. We have found out this step is very crucial for the hardware installation. 
   
