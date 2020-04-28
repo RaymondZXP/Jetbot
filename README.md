@@ -7,9 +7,15 @@ This repository contains the modified notebooks for the Micron Robotic Event Day
 
 For the hardware installation, please follow the original link provided by the waveshare jetbot documentation www.waveshare.com/wiki/JetBot_AI_Kit. 
 
-<p style='color:red'> IMPORTANT </p>
+<font color='red'>IMPORTANT </font>
 
-This repository is ONLY compatible with jetbot image version 3.2. 
+1. This repository is ONLY compatible with jetbot image version 3.2. Jetbot image version 3.2 is built with TensorRT 5.0 while Jetbot image version 4 is built with TensorRT version 6.1. 
+
+from jetbot import ObjectDetector in the object_following folder only works with TensorRT version 5.0.
+
+
+
+
 
 There are 5 folders in total:
 
